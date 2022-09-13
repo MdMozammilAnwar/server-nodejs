@@ -1,0 +1,25 @@
+{
+  "name": "server-node-postgres",
+  "version": "1.0.0",
+  "description": "crud application with nodejs , expressjs, sequalize and postgresql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/MdMozammilAnwar/server-nodejs.git"
+  },
+  "author": "Md Mozammil Anwar Quadri",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
